@@ -1,13 +1,18 @@
 #include <iostream>
 using namespace std;
-void print();
+void print(int s){
+    cout << "Sum is : "<<s<<endl;
+}
+
+int sum(int a, int b){
+    int c = a + b;
+    //return a+b;
+}
+
 int main(){
-    print();
+    sum(10,20);
+    //print(sum(10,20));
     return 0;
 }
 
 
-
-void print(){
-    cout << "Welcome!"<<endl;
-}
