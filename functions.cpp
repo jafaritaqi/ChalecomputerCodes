@@ -5,13 +5,25 @@ void print(int s){
 }
 
 int sum(int a, int b){
-    int c = a + b;
-    //return a+b;
+   int add = a+b;
+   return add;
+}
+
+int sum(int a, int b,int c){
+   int add = a+b+c;
+   return add;
+}
+
+int sum(int a, int b,int c,int d){
+   int add = a+b+c+d;
+   return add;
 }
 
 int main(){
-    sum(10,20);
-    //print(sum(10,20));
+    int x=10; int y = 20;
+    print(sum(x,y));
+    print(sum(x,y,30));
+    print(sum(x,y,30,40));
     return 0;
 }
 
